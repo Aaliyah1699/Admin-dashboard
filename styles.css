@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    background-color: #c4b5fd;
     font-family: 'Roboto', sans-serif;
 }
 /* temporary borders */
@@ -43,10 +46,43 @@
 .sidebar-sec {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: 1fr;
 }
 
-/* section 1 main content */
+.sidebar {
+    display: grid;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
+}
+
+.sidebar-item {
+    padding: 10px;
+    font-size: large;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+p.dash-head {
+    font-size: 30px;
+    font-weight: bold;
+}
+.board-icon {
+    width: 30px;
+    height: 30px;
+}
+
+img.dash-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar-item:hover{
+    color: #7c3aed;
+}
+
+
+
+/* section 3 main content */
 .main-grid{
     grid-column: 2 / 4;
     grid-row: 2 / 4;
