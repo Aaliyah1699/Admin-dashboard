@@ -77,11 +77,24 @@ p.dash-head:hover {
 .board-icon {
     width: 30px;
     height: 30px;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.board-icon:hover {
+    width: 35px;
+    height: 35px;
 }
 
 img.dash-icon {
     width: 20px;
     height: 20px;
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+img.dash-icon:hover {
+    width: 30px;
+    height: 30px;
+
 }
 
 .sidebar-item:hover{
