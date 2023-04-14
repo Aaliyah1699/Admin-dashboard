@@ -78,6 +78,38 @@ button.btn {
 button.btn:hover {
     background-color: #7c3aed;
 }
+img.md-userIcon {
+    width: 70px;
+    height: 70px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    vertical-align: middle;
+}
+.user-under {
+    display: grid;
+    grid-template-columns: 40px auto 1fr;
+    grid-template-rows: auto auto;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+.user-under .lg-text {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 5px;
+    grid-column: 3 / 4;
+    line-height: 1;
+    font-family: 'Shadows Into Light', cursive;
+    grid-row: 2 / 3;
+}
+.user-under .sm-text {
+    font-size: 15px;
+    margin-left: 5px;
+    grid-column: 3 / 4;
+    grid-row: 1/ 3;
+}
+
 
 /* section 2 sidebar */
 .sidebar-grid {
