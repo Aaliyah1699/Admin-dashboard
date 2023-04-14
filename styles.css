@@ -8,11 +8,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 /* temporary borders */
-
-
-/* .main-content {
+.main-content {
     border: 2px solid maroon;
-} */
+}
 
 /* overall  */
 .grid-container {
