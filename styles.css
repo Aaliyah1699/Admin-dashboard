@@ -41,7 +41,8 @@ body {
 /* section 2 sidebar */
 .sidebar-grid {
     grid-column: 1 / 2;
-    grid-row: 1 / 3;
+    grid-row: 1 / 4;
+    
 }
 .sidebar-sec {
     display: grid;
