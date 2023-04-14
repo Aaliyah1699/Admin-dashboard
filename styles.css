@@ -59,14 +59,21 @@ body {
 
 .sidebar-item {
     padding: 10px;
-    font-size: large;
+    font-size: 20px;
     font-family: 'Shadows Into Light', cursive;
+    transition: font-size 0.3s ease;
 }
 
 p.dash-head {
     font-size: 30px;
     font-weight: bold;
+    transition: font-size 0.3s ease;
 }
+
+p.dash-head:hover {
+    font-size: 35px;
+}
+
 .board-icon {
     width: 30px;
     height: 30px;
@@ -79,6 +86,8 @@ img.dash-icon {
 
 .sidebar-item:hover{
     color: #7c3aed;
+    font-size: 25px;
+    cursor: pointer;
 }
 
 
