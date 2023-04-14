@@ -99,7 +99,7 @@ img.md-userIcon {
     font-weight: bolder;
     margin-left: 5px;
     grid-column: 3 / 4;
-    line-height: 1;
+    line-height: .9;
     font-family: 'Shadows Into Light', cursive;
     grid-row: 2 / 3;
 }
