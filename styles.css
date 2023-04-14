@@ -204,16 +204,12 @@ img.dash-icon:hover {
 
 /* section 3 main content */
 .main-grid{
-    grid-column: 2 / 4;
-    grid-row: 2 / 4;
-    justify-content: space-around;
-}
-.main-content {
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, 1fr);
-   
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
 }
+
 
 /* footer */
 footer {
