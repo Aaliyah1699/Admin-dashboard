@@ -238,6 +238,7 @@ img.dash-icon:hover {
 .announce {
     padding: 20px;
     margin: 15px;
+    margin-left: 0;
     background-color: #ede9fe;
     border-radius: 10px;
    -webkit-box-shadow: -5px -3px 4px 0px rgba(46,16,101,0.62);
