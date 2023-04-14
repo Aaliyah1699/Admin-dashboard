@@ -1,0 +1,19 @@
+HEADER
+- Add icons
+- move name down left with icon next to it
+- move buttons over 
+- move buttons down
+- move name over to right with icon
+- make search bar stretch
+- style search bar 
+- style buttons
+- add icons
+- style name
+- add box shadow under header
+- remove border
+
+
+main content 
+the projects should have [ grid-template-columns: auto auto auto]
+to keep them the same size col
+and same for row
