@@ -7,10 +7,6 @@ body {
     background-color: #c4b5fd;
     font-family: 'Roboto', sans-serif;
 }
-/* temporary borders */
-.main-content {
-    border: 2px solid maroon;
-}
 
 /* overall  */
 .grid-container {
@@ -218,7 +214,10 @@ img.dash-icon:hover {
     font-weight: lighter;
     line-height: 1.2;
 }
-
+.trendIcon {
+    width: 40px;
+    height: 40px;
+}
 .project {
     padding: 20px;
     background-color: #ede9fe;
