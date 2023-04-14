@@ -209,7 +209,34 @@ img.dash-icon:hover {
     grid-template-rows: repeat(4, auto);
     gap: 10px;
 }
-
+.project {
+    padding: 20px;
+    background-color: #ede9fe;
+}
+.box {
+    border-radius: 10px;
+    margin: 20px;
+}
+.announce {
+    padding: 5px;
+    background-color: #ede9fe;
+}
+.trending {
+    padding: 5px;
+    background-color: #ede9fe;
+}
+.first-col {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 2;
+}
+.second-col {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 2;
+}
+.third-col {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 2;
+}
 
 /* footer */
 footer {
