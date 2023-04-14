@@ -216,14 +216,25 @@ img.dash-icon:hover {
 .box {
     border-radius: 10px;
     margin: 20px;
+    -webkit-box-shadow: -10px 2px 1px 0px rgba(46,16,101,0.62);
+    -moz-box-shadow: -10px 2px 1px 0px rgba(46,16,101,0.62);
+    box-shadow: -10px 2px 1px 0px rgba(46,16,101,0.62);
 }
 .announce {
     padding: 5px;
     background-color: #ede9fe;
+    border-radius: 10px;
+   -webkit-box-shadow: -5px -3px 4px 0px rgba(46,16,101,0.62);
+    -moz-box-shadow: -5px -3px 4px 0px rgba(46,16,101,0.62);
+    box-shadow: -5px -3px 4px 0px rgba(46,16,101,0.62);
 }
 .trending {
     padding: 5px;
     background-color: #ede9fe;
+    border-radius: 10px;
+    -webkit-box-shadow: -5px -3px 4px 0px rgba(46,16,101,0.62);
+    -moz-box-shadow: -5px -3px 4px 0px rgba(46,16,101,0.62);
+    box-shadow: -5px -3px 4px 0px rgba(46,16,101,0.62);
 }
 .first-col {
     grid-column: 1 / span 1;
