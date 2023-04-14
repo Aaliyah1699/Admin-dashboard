@@ -33,7 +33,16 @@ body {
 .header-sec {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 1fr;
+}
+.search-sec input{
+    border-radius: 10px;
+    border: none;
+    background-color: #ede9fe;
+    padding: 5px;
+    margin: 20px;
+    font-size: 16px;
+    width: 400px;
 }
 
 /* section 2 sidebar */
