@@ -56,6 +56,28 @@ img.searchIcon {
     height: 23px;
     cursor: pointer;
 }
+.header-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: end;
+    align-content: center;
+    gap: 5px;
+}
+button.btn {
+    border: none;
+    background-color: #2e1065;
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 25px;
+}
+button.btn:hover {
+    background-color: #7c3aed;
+}
 
 /* section 2 sidebar */
 .sidebar-grid {
