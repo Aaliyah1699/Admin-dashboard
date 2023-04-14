@@ -209,6 +209,16 @@ img.dash-icon:hover {
     grid-template-rows: repeat(4, auto);
     gap: 10px;
 }
+.project-title, .ann-title, .fakeuser {
+    font-size: 15px;
+    font-weight: bold;
+}
+.project-text, .ann-text, .faketext {
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 1.2;
+}
+
 .project {
     padding: 20px;
     background-color: #ede9fe;
