@@ -284,6 +284,10 @@ img.dash-icon:hover {
     -moz-box-shadow: -10px 2px 1px 0px rgba(46,16,101,0.62);
     box-shadow: -10px 2px 1px 0px rgba(46,16,101,0.62);
 }
+img.boxIcon {
+    width: 20px;
+    height: 20px;
+}
 .announce {
     padding: 20px;
     margin: 15px;
