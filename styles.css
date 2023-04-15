@@ -304,6 +304,11 @@ img.dash-icon:hover {
     -webkit-box-shadow: -10px 2px 1px 0px rgba(46,16,101,0.62);
     -moz-box-shadow: -10px 2px 1px 0px rgba(46,16,101,0.62);
     box-shadow: -10px 2px 1px 0px rgba(46,16,101,0.62);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+.box:hover {
+  transform: translateY(-10px);
 }
 img.boxIcon {
     width: 20px;
@@ -366,3 +371,4 @@ footer a:hover {
     color: #c4b5fd;
     text-decoration: underline;
 }
+
