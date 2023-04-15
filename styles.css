@@ -262,6 +262,10 @@ img.dash-icon:hover {
     font-weight: bold;
     margin-top: 20px;
 }
+.project-title {
+    margin-left: 40px;
+
+ }
 .project {
     padding: 20px;
     background-color: #ede9fe;
@@ -274,7 +278,8 @@ img.dash-icon:hover {
 }
 .box {
     border-radius: 10px;
-    margin: 20px;
+    margin: 25px;
+    padding: 20px;
     -webkit-box-shadow: -10px 2px 1px 0px rgba(46,16,101,0.62);
     -moz-box-shadow: -10px 2px 1px 0px rgba(46,16,101,0.62);
     box-shadow: -10px 2px 1px 0px rgba(46,16,101,0.62);
@@ -311,6 +316,7 @@ img.dash-icon:hover {
 .second-col {
     grid-column: 2 / span 1;
     grid-row: 1 / span 2;
+    margin-top: 40px;
 }
 .third-col {
     grid-column: 3 / span 1;
